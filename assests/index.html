@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Desk Limited</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">APP DESK LIMITED</a>
+
+        <!-- Search bar -->
+        <form class="d-flex">
+          <input
+            class="form-control"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </form>
+
+        <!-- Navbar toggler for mobile view -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links and icons -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Listings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Members</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item navbar-icons">
+              <a href="#" class="nav-link"><i class="fas fa-heart"></i></a>
+            </li>
+            <li class="nav-item navbar-icons">
+              <a href="#" class="nav-link"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </li>
+            <li class="nav-item navbar-icons">
+              <a href="#" class="nav-link"><i class="fas fa-user"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Hero section -->
+
+    <div class="container mt-4">
+      <!-- Navbar area -->
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+          <span>Home <i class="fas fa-arrow-right"></i></span>
+          <span class="ml-3">Catalog <i class="fas fa-arrow-right"></i></span>
+        </div>
+        <div
+          class="font-weight-bold"
+          style="font-family: 'Poppins', sans-serif"
+        >
+          Smartphones
+        </div>
+      </div>
+
+      <!-- First row with brand and filter items -->
+      <div class="row">
+        <div class="col-md-4">
+          <!-- Brand and Search Area -->
+          <div class="mb-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="mb-0">Brand</h5>
+              <i class="fas fa-arrow-up"></i>
+            </div>
+            <hr />
+            <input
+              type="text"
+              class="form-control mb-3"
+              placeholder="Search..."
+            />
+
+            <!-- Checkbox Filters -->
+            <div class="mb-4">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="apple" />
+                <label class="form-check-label" for="apple">Apple 110</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="samsung" />
+                <label class="form-check-label" for="samsung"
+                  >Samsung 125</label
+                >
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="xiaomi" />
+                <label class="form-check-label" for="xiaomi">Xiaomi 68</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="poco" />
+                <label class="form-check-label" for="poco">Poco 44</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="honor" />
+                <label class="form-check-label" for="honor">Honor 10</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="motorola" />
+                <label class="form-check-label" for="motorola"
+                  >Motorola 34</label
+                >
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="nokia" />
+                <label class="form-check-label" for="nokia">Nokia 22</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="realme" />
+                <label class="form-check-label" for="realme">Realme 35</label>
+              </div>
+            </div>
+
+            <!-- Additional Filters -->
+            <div class="mb-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>Battery Capacity</span>
+                <i class="fas fa-arrow-up"></i>
+              </div>
+              <hr />
+            </div>
+            <div class="mb-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>Screen Type</span>
+                <i class="fas fa-arrow-up"></i>
+              </div>
+              <hr />
+            </div>
+            <div class="mb-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>Screen Diagonal</span>
+                <i class="fas fa-arrow-up"></i>
+              </div>
+              <hr />
+            </div>
+            <div class="mb-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>Protection Class</span>
+                <i class="fas fa-arrow-up"></i>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+
+        <!-- Second row with selected products and cards -->
+        <div class="col-md-8">
+          <!-- Selected Products Area -->
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Selected products: <strong>85</strong></h2>
+            <div class="border rounded-pill p-2">
+              <span>By rating</span> <i class="fas fa-arrow-up"></i>
+            </div>
+          </div>
+
+          <!-- Product Cards -->
+          <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-3 mb-4">
+              <div class="card h-100">
+                <img src="/assests/images/Iphone 14 pro 1.png" class="card-img-top" alt="Product 1" />
+                <div class="card-body">
+                  <p class="card-text"> Apple iPhone 14 Pro 512GB Gold (MQ233)</p>
+                  <a href="#" class="btn btn-outline-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-3 mb-4">
+              <div class="card h-100">
+                <img src="/assests/images/Iphone 14 pro 2.png" class="card-img-top" alt="Product 2" />
+                <div class="card-body">
+                  <p class="card-text">Apple iPhone 11 128GB White (MQ233)</p>
+                  <a href="#" class="btn btn-outline-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-3 mb-4">
+              <div class="card h-100">
+                <img src="/assests/images/iphone 14 pro 3.png" class="card-img-top" alt="Product 3" />
+                <div class="card-body">
+                  <p class="card-text">Apple iPhone 11 128GB White
+(MQ233)</p>
+                  <a href="#" class="btn btn-outline-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-md-3 mb-4">
+              <div class="card h-100">
+                <img src="/assests/images/Iphone 14 pro 4.png" class="card-img-top" alt="Product 4" />
+                <div class="card-body">
+                  <p class="card-text">Apple iPhone 14 Pro 1TB Gold (MQ2V3)</p>
+                  <a href="#" class="btn btn-outline-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="col-md-3 mb-4">
+              <div class="card h-100">
+                <img src="/assests/images/Iphone 14 pro 5.png" class="card-img-top" alt="Product 5" />
+                <div class="card-body">
+                  <p class="card-text">Apple iPhone 14 Pro 1TB Gold (MQ2V3)</p>
+                  <a href="#" class="btn btn-outline-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col-md-3 mb-4">
+              <div class="card h-100">
+                <img src="/assests/images/Iphone 14 pro 7.png" class="card-img-top" alt="Product 6" />
+                <div class="card-body">
+                  <p class="card-text">Apple iPhone 14 Pro 128GB Deep Purple (MQ0G3)</p>
+                  <a href="#" class="btn btn-outline-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="col-md-3 mb-4">
+              <div class="card h-100">
+                <img src="/assests/images/iphone 14 pro 3.png" class="card-img-top" alt="Product 7" />
+                <div class="card-body">
+                  <p class="card-text">Apple iPhone 13 mini 128GB Pink (MLK23)</p>
+                  <a href="#" class="btn btn-outline-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="col-md-3 mb-4">
+              <div class="card h-100">
+                <img src="/assests/images/Iphone 14 pro 4.png" class="card-img-top" alt="Product 8" />
+                <div class="card-body">
+                  <p class="card-text">Apple iPhone 14 Pro 256GB Space Black (MQ0T3)</p>
+                  <a href="#" class="btn btn-outline-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer section -->
+    <footer class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+          <!-- First Column (left aligned) -->
+          <div class="col-md-4 mb-4">
+            <h3 style="font-family: 'Poppins', sans-serif">Cyber</h3>
+            <p>
+              We are a residential interior design firm located in Portland. Our
+              boutique studio offers more than.
+            </p>
+          </div>
+
+          <!-- Second Column (center aligned) -->
+          <div class="col-md-4 text-center mb-4">
+            <h3>Services</h3>
+            <ul class="list-unstyled">
+              <li>Bonus program</li>
+              <li>Gift cards</li>
+              <li>Credit and payment</li>
+              <li>Service contracts</li>
+              <li>Non-cash account</li>
+              <li>Payment</li>
+            </ul>
+          </div>
+
+          <!-- Third Column (right aligned) -->
+          <div class="col-md-4 text-right mb-4">
+            <h3 style="font-family: 'Poppins', sans-serif">
+              Assistance to the buyer
+            </h3>
+            <ul class="list-unstyled">
+              <li>Find an order</li>
+              <li>Terms of delivery</li>
+              <li>Exchange and return of goods</li>
+              <li>Guarantee</li>
+              <li>Frequently asked questions</li>
+              <li>Terms of use of the site</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
